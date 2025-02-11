@@ -58,7 +58,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - function
   - $$mdi:keyboard-space$$
-  - {t: colemak dh, h: toggle}
+  - {t: colemak, h: toggle}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - utility
@@ -194,7 +194,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  colemak dh:
+  colemak:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
