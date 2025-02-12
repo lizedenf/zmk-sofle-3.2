@@ -59,11 +59,11 @@ layers:
   - function
   - $$mdi:keyboard-space$$
   - {t: colemak, h: toggle}
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - utility
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
+  - utility
   function:
   - {t: '`', s: '~'}
   - F1
@@ -191,9 +191,9 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   colemak:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
@@ -254,8 +254,8 @@ layers:
   - function
   - $$mdi:keyboard-space$$
   - {t: main, h: toggle}
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - utility
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:backspace-reverse-outline$$
+  - utility
