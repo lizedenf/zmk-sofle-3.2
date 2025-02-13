@@ -189,9 +189,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
-  - '&LEFT_BRACKET'
-  - '&RIGHT_BRACKET'
-  - '&NON_US_HASH'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - '#'
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   colemak:
