@@ -70,6 +70,27 @@
             bindings = <&kp N0 &kp N1 &kp N8 &kp N2>;
             label = "PARA_SYM";
         };
+
+        Plaintiff: plaintiff {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(P) &kp L &kp A &kp I &kp N &kp T &kp I &kp F &kp F>;
+            label = "PLAINTIFF";
+        };
+
+        Defendant: Defendant {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(D) &kp E &kp F &kp E &kp N &kp D &kp A &kp N &kp T>;
+            label = "DEFENDANT";
+        };
+
+        copyright: copyright {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp C &kp O &kp P &kp Y &kp R &kp I &kp G &kp H &kp T>;
+            label = "COPYRIGHT";
+        };
     };
 
     keymap {
@@ -91,7 +112,7 @@
         nav-num-rgb {
             bindings = <
 &kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6      &kp LBKT   &kp RBKT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans      &emdash          &sectionsym     &para_sym        &kp PG_UP        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP   &kp N7     &kp N8    &kp N9                &kp PLUS               &kp LS(PLUS)
+&trans      &emdash          &sectionsym     &para_sym        &Plaintiff       &Defendant         &mmv MOVE_DOWN   &kp PG_UP   &kp N7     &kp N8    &kp N9                &kp PLUS               &kp LS(PLUS)
 &trans      &kp LEFT         &kp DOWN        &kp UP_ARROW     &kp RIGHT        &mkp MB5           &mmv MOVE_LEFT   &kp DOLLAR  &kp N4     &kp N5    &kp N6                &kp MINUS              &kp RIGHT_BRACKET
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &kp FSLH    &kp N1     &kp N2    &kp N3                &kp EQUAL              &trans
 &kp C_MUTE  &trans           &trans          &mkp LCLK        &mkp MCLK        &mkp RCLK          &mkp LCLK        &kp DOT     &kp COLON  &kp N0    &trans                &trans
