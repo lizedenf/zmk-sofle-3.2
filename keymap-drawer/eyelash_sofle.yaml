@@ -82,8 +82,8 @@ layers:
   - '&emdash'
   - '&sectionsym'
   - '&para_sym'
-  - PG UP
-  - '&mkp MB4'
+  - '&Plaintiff'
+  - '&Defendant'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
   - {t: '7', s: '&'}
